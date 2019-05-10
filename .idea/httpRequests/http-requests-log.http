@@ -1,0 +1,52 @@
+GET http://localhost:8080/greet
+Authorization: Basic Ram password
+Accept: application/json
+
+<> 2019-05-10T105714.200.json
+
+###
+
+GET http://localhost:8080/greet
+Authorization: Basic Ram password
+Accept: application/json
+
+<> 2019-05-10T105318.200.json
+
+###
+
+GET http://localhost:8080/greet
+Accept: application/json
+
+<> 2019-05-10T105115.401.json
+
+###
+
+GET http://localhost:8080/greet
+Accept: application/json
+Content-Type: application/json
+Authorization: Basic dXNlcjo3NTJjYzU2NS1lYzNiLTRlZDAtOTIzNC0wNDY5N2FiNDM4OGI=
+
+<> 2019-05-09T012154.200.json
+
+###
+
+GET http://localhost:8080/greet
+Accept: application/json
+Content-Type: application/json
+Authorization: Basic 752cc565-ec3b-4ed0-9234-04697ab4388b
+
+###
+
+GET http://localhost:8080/greet
+Accept: application/json
+Authorization: Basic 752cc565-ec3b-4ed0-9234-04697ab4388b
+
+###
+
+GET http://localhost:8080/greet
+Accept: application/json
+
+<> 2019-05-09T011921.401.json
+
+###
+

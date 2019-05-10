@@ -1,3 +1,9 @@
 spring:
   application:
     name: security-jdbc
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'

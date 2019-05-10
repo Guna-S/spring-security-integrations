@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: 'security-inmemory'
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
