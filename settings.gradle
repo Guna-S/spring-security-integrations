@@ -8,3 +8,9 @@ rootProject.name = 'Spring Security Microservices'
 
 include 'security-inmemory'
 include 'security-jdbc'
+include 'security-ldap'
+include 'security-login-logout'
+include 'security-custom-provider'
+include 'security-custom-userservice'
+include 'security-custom-password-encoder'
+
