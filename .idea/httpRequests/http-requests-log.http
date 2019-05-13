@@ -1,0 +1,88 @@
+GET http://localhost:9002
+Authorization: Basic Ram Ramspasswo
+Accept: application/json
+
+###
+
+GET http://localhost:9002
+Authorization: Basic Ram Ramspasswo
+Accept: application/json
+
+###
+
+GET http://localhost:9002
+Authorization: Basic Ramesh Rameshspassword
+Accept: application/json
+
+<> 2019-05-13T125434.200.json
+
+###
+
+GET http://localhost:9002
+Authorization: Basic Ram Ramspasswo
+Accept: application/json
+
+###
+
+GET http://localhost:9002
+Authorization: Basic Ram Ramspassword
+Accept: application/json
+
+<> 2019-05-13T125429.200.json
+
+###
+
+GET http://localhost:9002/greet
+Authorization: Basic Ram Ramspassword
+Accept: application/json
+
+<> 2019-05-13T125410.404.json
+
+###
+
+GET http://localhost:9002/greet
+Authorization: Basic Ram Ramspasswo
+Accept: application/json
+
+###
+
+GET http://localhost:9002/greet
+Authorization: Basic Ram Ramspasswo
+Accept: application/json
+
+###
+
+GET http://localhost:9002/greet
+Authorization: Basic Ram Ramspassword
+Accept: application/json
+
+###
+
+GET http://localhost:9001/greet
+Authorization: Basic ben benspassword
+
+<> 2019-05-13T123217.200.txt
+
+###
+
+GET http://localhost:9001/greet
+Authorization: Basic bob bobspassword
+
+<> 2019-05-13T123214.200.txt
+
+###
+
+GET http://localhost:9001/greet
+Authorization: Basic ben benspassword
+
+<> 2019-05-13T122539.200.txt
+
+###
+
+GET http://localhost:9001/greet
+Authorization: Basic bob bobspassword
+
+<> 2019-05-13T122520.200.txt
+
+###
+
