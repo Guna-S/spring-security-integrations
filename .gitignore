@@ -18,7 +18,7 @@ HELP.md
 *.iml
 *.ipr
 /out/
-.idea/*
+.idea/httpRequests
 
 ### NetBeans ###
 /nbproject/private/
