@@ -6,6 +6,8 @@ pluginManagement {
 
 rootProject.name = 'Spring Security Microservices'
 
+
+include 'password-encoder'
 include 'security-inmemory'
 include 'security-jdbc'
 include 'security-ldap'

@@ -1,0 +1,17 @@
+server:
+  port: 9004
+
+spring:
+  application:
+    name: password-encoder
+
+  security:
+    user:
+      name: user
+      password: user
+
+logging:
+  level:
+    org:
+      springframework:
+        security: DEBUG
