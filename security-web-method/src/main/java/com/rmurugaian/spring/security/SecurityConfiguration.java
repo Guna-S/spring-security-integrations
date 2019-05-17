@@ -23,8 +23,8 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
             .httpBasic()
             .and()
             .authorizeRequests()
-            .mvcMatchers(HttpMethod.GET, "/employees").access("@authz.check(principal)")
-            .mvcMatchers("/users/{name}").access("#name == principal.username")
+                .mvcMatchers(HttpMethod.GET, "/employees").access("@authz.check(principal)")
+                .mvcMatchers("/users/{name}").access("#name == principal?.username")
             .anyRequest().permitAll();
 
     }
