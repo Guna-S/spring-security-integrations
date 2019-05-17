@@ -1,0 +1,355 @@
+GET http://localhost:8080/users/Ram
+Authorization: Basic Ram Ramspassword
+Accept: application/json
+
+<> 2019-05-17T115934.200.json
+
+###
+
+GET http://localhost:8080/users/vijay
+Authorization: Basic Ram Ramspassword
+Accept: application/json
+
+<> 2019-05-17T115924.403.json
+
+###
+
+GET http://localhost:8080/employees
+Authorization: Basic Ram Ramspassword
+Accept: application/json
+
+<> 2019-05-17T115856.200.json
+
+###
+
+POST http://localhost:8080/employees
+Accept: application/json
+Content-Type: application/json
+
+{
+"name":"Ram"
+}
+
+###
+
+POST http://localhost:8080/employees
+Accept: application/json
+Content-Type: application/json
+
+{
+"name":"Ram"
+}
+
+###
+
+POST http://localhost:8080/employees
+Accept: application/json
+Content-Type: application/json
+
+{
+"name":"Ram"
+}
+
+###
+
+GET http://localhost:8080/employees
+Authorization: Basic Ram Ramspassword
+Accept: application/json
+
+<> 2019-05-17T115834.200.json
+
+###
+
+GET http://localhost:8080/employees
+Authorization: Basic Rams Ramspassword
+Accept: application/json
+
+<> 2019-05-17T115829.401.json
+
+###
+
+GET http://localhost:8080/employees
+Authorization: Basic Rams Ramspassword
+Accept: application/json
+
+<> 2019-05-17T115254.401.json
+
+###
+
+GET http://localhost:8080/employees
+Authorization: Basic Ram Ramspassword
+Accept: application/json
+
+<> 2019-05-17T115243.200.json
+
+###
+
+POST http://localhost:8080/employees
+Accept: application/json
+Content-Type: application/json
+
+{
+"name":"Ram"
+}
+
+###
+
+POST http://localhost:8080/employees
+Accept: application/json
+
+{
+"name":"Ram"
+}
+
+<> 2019-05-17T115216.415.json
+
+###
+
+POST http://localhost:8080/employees
+Accept: application/json
+
+{
+"name":"Ram"
+}
+
+<> 2019-05-17T115058.415.json
+
+###
+
+GET http://localhost:8080/employees
+Authorization: Basic Ram Ramspassword
+Accept: application/json
+
+<> 2019-05-17T115019.200.json
+
+###
+
+GET http://localhost:9005/greet
+Authorization: Basic Ram Ramspassword
+Accept: application/json
+
+<> 2019-05-14T120930.200.json
+
+###
+
+GET http://localhost:9005/greet
+Authorization: Basic Ram Ramspassword
+Accept: application/json
+
+###
+
+GET http://localhost:9005/greet
+Authorization: Basic Ram Ramspassword
+Accept: application/json
+
+###
+
+GET http://localhost:9005/greet
+Authorization: Basic Ram Ramspassword
+Accept: application/json
+
+###
+
+GET http://localhost:9005/greet
+Accept: application/json
+
+<> 2019-05-14T120527.401.json
+
+###
+
+POST http://localhost:9004/encode
+Authorization: Basic user user
+Content-Type: application/json
+
+{
+  "value": "Ramspassword",
+  "encodeType": "sha256"
+}
+
+<> 2019-05-13T040515.200.txt
+
+###
+
+POST http://localhost:9004/encode
+Authorization: Basic user user
+Content-Type: application/json
+
+{
+  "value": "Ramspassword",
+  "encodeType": "scrypt"
+}
+
+<> 2019-05-13T040414.200.txt
+
+###
+
+POST http://localhost:9004/encode
+Authorization: Basic user user
+Content-Type: application/json
+
+{
+"value":"Ramspassword"
+}
+
+<> 2019-05-13T040339.200.txt
+
+###
+
+POST http://localhost:9004/encode
+Authorization: Basic user 2546157e-4cb6-45d7-ae3a-cca025f43a1b
+Content-Type: application/json
+
+{
+"value":"Ramspassword"
+}
+
+<> 2019-05-13T040148.401.json
+
+###
+
+POST http://localhost:9004/encode
+Authorization: Basic user 2546157e-4cb6-45d7-ae3a-cca025f43a1b
+Content-Type: application/json
+
+{
+"value":"Ramspassword"
+}
+
+<> 2019-05-13T035932.401.json
+
+###
+
+POST http://localhost:9004/encode
+Authorization: Basic user 4f987b0c-c63c-4564-b96a-7b5d93452fc4
+Content-Type: application/json
+
+{
+"value":"Ramspassword"
+}
+
+<> 2019-05-13T035709.200.txt
+
+###
+
+POST http://localhost:9004/encode
+Authorization: Basic user 9068caae-20ec-405d-8045-a7e209b961af
+Content-Type: application/json
+
+{
+"value":"Ramspassword"
+}
+
+<> 2019-05-13T035306.500.json
+
+###
+
+POST http://localhost:9004/encode
+Authorization: Basic user 37962a4c-fa38-4f81-b818-2fbc9d72ab1a
+Content-Type: application/json
+
+{
+"value":"Ramspassword"
+}
+
+###
+
+POST http://localhost:9004/encode
+Authorization: Basic user 9704391e-209d-4662-9d20-29ad0c0ab352
+Content-Type: application/json
+
+{
+"value":"Ramspassword"
+}
+
+###
+
+POST http://localhost:9004/encode
+Authorization: Basic user 9704391e-209d-4662-9d20-29ad0c0ab352
+Content-Type: application/json
+
+{
+"value":"Ramspassword"
+}
+
+###
+
+POST http://localhost:9004/encode
+Authorization: Basic user 9704391e-209d-4662-9d20-29ad0c0ab352
+Content-Type: application/json
+
+{
+"value":"Ramspassword"
+}
+
+###
+
+POST http://localhost:9004/encode
+Authorization: Basic user ce7f39c4-1e48-4e8a-a3af-9444a9aae5cc
+Content-Type: application/json
+
+{
+"value":"Ramspassword"
+}
+
+###
+
+POST http://localhost:9004/encode
+Authorization: Basic user 0fbb3747-69e3-4e14-b63d-67d25cbbf96e
+Content-Type: application/json
+
+{
+"value":"Ramspassword"
+}
+
+###
+
+POST http://localhost:9004/encode
+Authorization: Basic User e44c43cc-41b2-4e97-9f51-827155211aa7
+Content-Type: application/json
+
+{
+"value":"Ramspassword"
+}
+
+###
+
+POST http://localhost:9004/encode
+Authorization: Basic user e44c43cc-41b2-4e97-9f51-827155211aa7
+Content-Type: application/json
+
+{
+"value":"Ramspassword"
+}
+
+###
+
+POST http://localhost:9004/encode
+Authorization: Basic Ram Ramspassword
+Content-Type: application/json
+
+{
+"value":"Ramspassword"
+}
+
+###
+
+POST http://localhost:9004/encode
+Authorization: Basic user user
+Content-Type: application/json
+
+{
+"value":"Ramspassword"
+}
+
+###
+
+POST http://localhost:9004/encode
+Authorization: Basic user user
+Content-Type: application/json
+
+{
+"value":"Ramspassword"
+}
+
+###
+
