@@ -17,3 +17,7 @@ include 'security-custom-provider'
 include 'security-custom-userservice'
 include 'security-custom-password-encoder'
 include 'security-web-method'
+include 'security-cache-control'
+include 'security-https'
+include 'security-xss'
+
